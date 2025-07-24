@@ -63,6 +63,9 @@ ul .li a {
   font-family: Inter;
   font-weight: 400;
 }
+ul li a:hover {
+  color: #252432;
+}
 ul .li {
   list-style: none;
 }
@@ -184,6 +187,9 @@ ul .li {
 .latest-deal-heading {
   text-align: center;
   margin-bottom: 120px;
+}
+.latest-deal-heading > h1 {
+  margin-bottom: 16px;
 }
 .deal-left {
   height: 400px;
@@ -359,8 +365,7 @@ footer {
   }
   .banner-img {
     width: 100%;
-    border-radius: 10px;
-    margin-bottom: 28px;
+    margin: 28px 0;
   }
   .banner h1 {
     font-size: 24px;
@@ -368,6 +373,9 @@ footer {
   .banner p {
     font-size: 14px;
     max-width: 400px;
+  }
+  .plant-heading {
+    margin-bottom: 28px;
   }
   .cards-container {
     grid-template-columns: repeat(2, 1fr);
