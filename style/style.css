@@ -199,8 +199,6 @@ ul .li {
   margin-bottom: 25px;
   background-size: cover;
   border-radius: 10px;
-  /* 
-  background: url() lightgray 50% / cover no-repeat; */
 }
 .left-2 {
   height: 187.5px;
@@ -258,6 +256,84 @@ ul .li {
   text-decoration-line: underline;
   text-decoration-style: solid;
   padding: 13px 50px;
+}
+/* join section */
+
+.join-section {
+  height: 533px;
+  background-image: url(../assets/news-letter-bg.png);
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.join-form-content h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 23px;
+}
+.join-form-content input[type="email"] {
+  width: 644px;
+  height: 50px;
+  padding: 8px 20px;
+}
+.join-form-content input[type="button"] {
+  background: var(--primary-color);
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  width: 186px;
+  height: 50px;
+  border: none;
+  position: relative;
+  right: 5px;
+}
+.join-form-content input[type="button"]:hover {
+  cursor: pointer;
+}
+/* footer start */
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  padding: 50px 160px;
+  width: 100%;
+  justify-content: space-between;
+}
+.footer-siteLogo {
+  width: 359px;
+  margin-bottom: 16px;
+}
+.important-links ul li {
+  list-style: none;
+  margin-bottom: 32px;
+}
+.important-links ul li a {
+  text-decoration: none;
+  color: #6b7280;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+.important-links {
+  display: flex;
+  flex-direction: column;
+}
+.social-icons img {
+  width: 36px;
+  height: 36px;
+}
+.social-icons {
+  display: flex;
+  gap: 24px;
 }
 /* Responsive for mobile device */
 @media screen and (max-width: 576px) {
@@ -338,5 +414,25 @@ ul .li {
   }
   .flower-plant-section {
     margin-bottom: 0px;
+  }
+  /* join */
+  .join-section {
+    height: 275px;
+    margin-top: 44px;
+  }
+  .join-form-content h1 {
+    font-size: 20px;
+  }
+  .join-form-content input[type="email"] {
+    width: 218px;
+  }
+  .join-form-content input[type="button"] {
+    width: 103px;
+  }
+  /* footer */
+  footer {
+    padding: 50px 20px;
+    flex-direction: column;
+    gap: 20px;
   }
 }
