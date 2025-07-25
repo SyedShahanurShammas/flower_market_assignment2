@@ -378,6 +378,9 @@ footer {
     width: 63px;
     height: 38px;
   }
+  nav {
+    margin-top: 13px;
+  }
 
   .nav-ul {
     display: none;
