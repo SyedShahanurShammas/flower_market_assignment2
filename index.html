@@ -271,5 +271,13 @@
         <a href="#"><img src="./assets/icon-youtube.png" alt="" /></a>
       </div>
     </footer>
+    <script>
+      const btns = document.getElementsByClassName("btn");
+      for (let i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", () => {
+          alert("Flower Added to Cart");
+        });
+      }
+    </script>
   </body>
 </html>
